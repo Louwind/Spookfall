@@ -1,0 +1,23 @@
+{
+  "name": "spookyfall:campsite_tents",
+  "terminators": "empty",
+  "projection": "rigid",
+  "elements": [
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/medium_tent_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/small_tent_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    }
+  ]
+}

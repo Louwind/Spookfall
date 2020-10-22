@@ -1,0 +1,39 @@
+{
+  "name": "spookyfall:campsite_campfires",
+  "terminators": "empty",
+  "projection": "rigid",
+  "elements": [
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/campfires/campfire_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/campfires/campfire_with_roast_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/campfires/campfire_with_roast_pig_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/campfires/campfire_with_roast_rabbit_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    }
+  ]
+}

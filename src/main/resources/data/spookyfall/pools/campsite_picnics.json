@@ -1,0 +1,39 @@
+{
+  "name": "spookyfall:campsite_picnics",
+  "terminators": "empty",
+  "projection": "rigid",
+  "elements": [
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/picnics/picnic_with_chairs_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/picnics/picnic_with_table_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/picnics/picnic_with_table_02",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/picnics/picnic_with_umbrella_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    }
+  ]
+}

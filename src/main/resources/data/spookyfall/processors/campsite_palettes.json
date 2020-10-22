@@ -1,0 +1,10 @@
+{
+  "processors": [
+    {
+      "processor": "features:rule",
+      "rules": {
+        "parameter": "features:palette"
+      }
+    }
+  ]
+}
