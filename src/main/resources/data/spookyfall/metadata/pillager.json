@@ -1,5 +1,5 @@
 {
   "type": "features:entity",
   "id": "minecraft:pillager",
-  "tag": "{DeathLootTable:\"minecraft:entities/pillager\",HandItems:[{id:\"minecraft:crossbow\",Count:1},{}]}"
+  "tag": "{DeathLootTable:\"minecraft:entities/pillager\",HandItems:[{id:\"minecraft:crossbow\",Count:1},{}],PersistenceRequired:1}"
 }

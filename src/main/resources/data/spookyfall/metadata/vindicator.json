@@ -1,5 +1,5 @@
 {
   "type": "features:entity",
   "id": "minecraft:vindicator",
-  "tag": "{DeathLootTable:\"minecraft:entities/vindicator\",HandItems:[{id:\"minecraft:iron_axe\",Count:1},{}]}"
+  "tag": "{DeathLootTable:\"minecraft:entities/vindicator\",HandItems:[{id:\"minecraft:iron_axe\",Count:1},{}],PersistenceRequired:1}"
 }

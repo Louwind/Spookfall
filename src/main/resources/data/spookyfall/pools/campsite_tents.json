@@ -14,7 +14,39 @@
     {
       "element": {
         "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/medium_tent_02",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/medium_tent_03",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
         "structure": "spookyfall:campsites/tents/small_tent_01",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/small_tent_02",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/small_tent_03",
         "processors": "spookyfall:campsite_palettes"
       },
       "weight": 1

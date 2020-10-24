@@ -1,0 +1,28 @@
+{
+  "name": "spookyfall:campsite_wood_piles",
+  "terminators": "empty",
+  "projection": "rigid",
+  "elements": [
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/wood_piles/big_pile_01"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/wood_piles/medium_pile_01"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/wood_piles/small_pile_01"
+      },
+      "weight": 1
+    }
+  ]
+}

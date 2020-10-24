@@ -1,0 +1,41 @@
+{
+  "name": "spookyfall:campsite_hay_bales",
+  "terminators": "empty",
+  "projection": "rigid",
+  "elements": [
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/hay_bales/hay_bale_05"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/hay_bales/hay_bale_04"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/hay_bales/hay_bale_03"
+      },
+      "weight": 1
+    },{
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/hay_bales/hay_bale_02"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:campsites/hay_bales/hay_bale_01"
+      },
+      "weight": 1
+    }
+  ]
+}
