@@ -1,0 +1,17 @@
+{
+  "type": "features:blockstate",
+  "functions": [
+    {
+      "function": "features:set_loot_table",
+      "loot_behavior": "minecraft:lootable_container",
+      "loot_table": "spookyfall:structures/farmlands/hay_bale_carts/huge_chest"
+    }
+  ],
+  "blockstate": {
+    "block": "minecraft:chest",
+    "properties": {
+      "facing": "east",
+      "type": "left"
+    }
+  }
+}

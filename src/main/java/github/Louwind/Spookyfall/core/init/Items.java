@@ -11,4 +11,8 @@ public class Items {
 
     public static final Item CAMPSITE_DEBUG_STICK = new DebugStickItem(new Identifier("spookyfall:campsite"), Suppliers.ofInstance(INSTANCE), new Item.Settings());
 
+    public static final Item HAY_BALE_CART_DEBUG_STICK = new DebugStickItem(new Identifier("spookyfall:hay_bale_cart"), Suppliers.ofInstance(INSTANCE), new Item.Settings());
+
+    public static final Item PUMPKIN_CART_DEBUG_STICK = new DebugStickItem(new Identifier("spookyfall:pumpkin_cart"), Suppliers.ofInstance(INSTANCE), new Item.Settings());
+
 }

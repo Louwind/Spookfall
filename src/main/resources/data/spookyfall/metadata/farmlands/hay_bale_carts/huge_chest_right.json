@@ -10,7 +10,8 @@
   "blockstate": {
     "block": "minecraft:chest",
     "properties": {
-      "facing": "east"
+      "facing": "east",
+      "type": "right"
     }
   }
 }

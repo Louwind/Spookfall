@@ -12,6 +12,8 @@ public class Spookyfall implements ModInitializer {
     @Override
     public void onInitialize() {
         Registry.register(ITEM, new Identifier("spookyfall:campsite_debug_stick"), Items.CAMPSITE_DEBUG_STICK);
+        Registry.register(ITEM, new Identifier("spookyfall:hay_bale_cart_debug_stick"), Items.HAY_BALE_CART_DEBUG_STICK);
+        Registry.register(ITEM, new Identifier("spookyfall:pumpkin_cart_debug_stick"), Items.PUMPKIN_CART_DEBUG_STICK);
     }
 
 }

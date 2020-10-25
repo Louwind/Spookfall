@@ -1,0 +1,16 @@
+{
+  "start": {
+    "type": "features:start",
+    "start_pool": "spookyfall:farmlands/hay_bale_carts",
+    "pools": [
+      {
+        "type": "features:pool",
+        "pool": "spookyfall:farmlands/hay_bale_carts",
+        "context": {
+          "type": "features:piece",
+          "rotations": "all"
+        }
+      }
+    ]
+  }
+}

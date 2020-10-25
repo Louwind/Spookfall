@@ -1,0 +1,35 @@
+{
+  "name": "spookyfall:farmlands/pumpkin_carts",
+  "terminators": "empty",
+  "projection": "rigid",
+  "elements": [
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:farmlands/pumpkin_carts/big_cart_01"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:farmlands/pumpkin_carts/huge_cart_01"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:farmlands/pumpkin_carts/medium_cart_01"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "minecraft:single",
+        "structure": "spookyfall:farmlands/pumpkin_carts/small_cart_01"
+      },
+      "weight": 1
+    }
+  ]
+}
