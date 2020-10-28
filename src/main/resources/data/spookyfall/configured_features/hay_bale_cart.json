@@ -1,0 +1,9 @@
+{
+  "configurations": {
+    "spookyfall:hay_bale_cart": {
+      "type": "features:jigsaw",
+      "start_pool": "spookyfall:farmlands/hay_bale_carts",
+      "rotations": "all"
+    }
+  }
+}

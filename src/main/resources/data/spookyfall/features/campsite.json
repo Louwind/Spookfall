@@ -1,295 +1,292 @@
 {
-  "start": {
-    "type": "features:start",
-    "start_pool": "spookyfall:campsite_campfires",
-    "pools": [
-      {
-        "type": "features:pool",
-        "pool": "spookyfall:campsite_campfires",
-        "context": {
-          "type": "features:piece",
-          "rotations": "all",
-          "overrides": [
-            {
-              "type": "features:parameter",
-              "parameter": "features:palette",
-              "from": [
-                {
-                  "type": "features:choose_palette",
-                  "palettes": [
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:blue_wool"
+  "type": "features:jigsaw",
+  "pools": [
+    {
+      "type": "features:pool",
+      "pool": "spookyfall:campsites/campfires",
+      "context": {
+        "type": "features:piece",
+        "rotations": "all",
+        "overrides": [
+          {
+            "type": "features:parameter",
+            "parameter": "features:palette",
+            "from": [
+              {
+                "type": "features:choose_palette",
+                "palettes": [
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:blue_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:brown_wool"
+                        "blockstate": "minecraft:blue_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:brown_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:gray_wool"
+                        "blockstate": "minecraft:blue_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:gray_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:cyan_wool"
+                        "blockstate": "minecraft:brown_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:cyan_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:green_wool"
+                        "blockstate": "minecraft:brown_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:green_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:light_blue_wool"
+                        "blockstate": "minecraft:gray_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:light_blue_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:light_gray_wool"
+                        "blockstate": "minecraft:gray_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:light_gray_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:lime_wool"
+                        "blockstate": "minecraft:cyan_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:lime_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:magenta_wool"
+                        "blockstate": "minecraft:cyan_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:magenta_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:orange_wool"
+                        "blockstate": "minecraft:green_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:orange_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:pink_wool"
+                        "blockstate": "minecraft:green_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:pink_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:purple_wool"
+                        "blockstate": "minecraft:light_blue_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:purple_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:red_wool"
+                        "blockstate": "minecraft:light_blue_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:red_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    },
-                    {
-                      "rules": [
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_wool"
-                          },
-                          "blockstate": "minecraft:yellow_wool"
+                        "blockstate": "minecraft:light_gray_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
                         },
-                        {
-                          "test": {
-                            "test": "minecraft:block_match",
-                            "block": "minecraft:red_carpet"
-                          },
-                          "blockstate": "minecraft:yellow_carpet"
-                        }
-                      ],
-                      "weight": 1
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                        "blockstate": "minecraft:light_gray_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
+                        },
+                        "blockstate": "minecraft:lime_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
+                        },
+                        "blockstate": "minecraft:lime_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
+                        },
+                        "blockstate": "minecraft:magenta_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
+                        },
+                        "blockstate": "minecraft:magenta_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
+                        },
+                        "blockstate": "minecraft:orange_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
+                        },
+                        "blockstate": "minecraft:orange_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
+                        },
+                        "blockstate": "minecraft:pink_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
+                        },
+                        "blockstate": "minecraft:pink_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
+                        },
+                        "blockstate": "minecraft:purple_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
+                        },
+                        "blockstate": "minecraft:purple_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
+                        },
+                        "blockstate": "minecraft:red_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
+                        },
+                        "blockstate": "minecraft:red_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  },
+                  {
+                    "rules": [
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_wool"
+                        },
+                        "blockstate": "minecraft:yellow_wool"
+                      },
+                      {
+                        "test": {
+                          "test": "minecraft:block_match",
+                          "block": "minecraft:red_carpet"
+                        },
+                        "blockstate": "minecraft:yellow_carpet"
+                      }
+                    ],
+                    "weight": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
-    ]
-  }
+    }
+  ]
 }

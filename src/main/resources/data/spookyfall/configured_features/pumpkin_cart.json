@@ -1,0 +1,9 @@
+{
+  "configurations": {
+    "spookyfall:pumpkin_cart": {
+      "type": "features:jigsaw",
+      "start_pool": "spookyfall:farmlands/pumpkin_carts",
+      "rotations": "all"
+    }
+  }
+}
