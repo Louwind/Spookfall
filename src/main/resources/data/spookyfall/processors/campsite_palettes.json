@@ -5,6 +5,12 @@
       "rules": {
         "parameter": "features:palette"
       }
+    },
+    {
+      "processor": "minecraft:block_ignore",
+      "blocks": [
+        "minecraft:air"
+      ]
     }
   ]
 }
