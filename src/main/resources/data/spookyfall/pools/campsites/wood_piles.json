@@ -1,5 +1,5 @@
 {
-  "name": "spookyfall:campsite_wood_piles",
+  "name": "spookyfall:campsites/wood_piles",
   "terminators": "empty",
   "projection": "rigid",
   "elements": [

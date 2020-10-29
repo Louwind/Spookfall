@@ -1,5 +1,5 @@
 {
-  "name": "spookyfall:campsite_carts",
+  "name": "spookyfall:campsites/carts",
   "terminators": "empty",
   "projection": "rigid",
   "elements": [

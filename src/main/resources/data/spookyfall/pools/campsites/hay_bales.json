@@ -1,5 +1,5 @@
 {
-  "name": "spookyfall:campsite_hay_bales",
+  "name": "spookyfall:campsites/hay_bales",
   "terminators": "empty",
   "projection": "rigid",
   "elements": [
@@ -8,14 +8,14 @@
         "type": "minecraft:single",
         "structure": "spookyfall:campsites/hay_bales/hay_bale_05"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "element": {
         "type": "minecraft:single",
         "structure": "spookyfall:campsites/hay_bales/hay_bale_04"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "element": {

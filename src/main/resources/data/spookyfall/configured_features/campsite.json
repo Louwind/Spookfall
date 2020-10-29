@@ -4,7 +4,7 @@
       "type": "features:jigsaw",
       "start_pool": "spookyfall:campsites/campfires",
       "rotations": "all",
-      "size": 10
+      "size": 4
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "spookyfall:campsite_tents",
+  "name": "spookyfall:campsites/tents",
   "terminators": "empty",
   "projection": "rigid",
   "elements": [
@@ -30,6 +30,30 @@
     {
       "element": {
         "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/medium_tent_04",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/medium_tent_05",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/medium_tent_06",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
         "structure": "spookyfall:campsites/tents/small_tent_01",
         "processors": "spookyfall:campsite_palettes"
       },
@@ -47,6 +71,30 @@
       "element": {
         "type": "features:context_aware",
         "structure": "spookyfall:campsites/tents/small_tent_03",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/small_tent_04",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/small_tent_05",
+        "processors": "spookyfall:campsite_palettes"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "type": "features:context_aware",
+        "structure": "spookyfall:campsites/tents/small_tent_06",
         "processors": "spookyfall:campsite_palettes"
       },
       "weight": 1

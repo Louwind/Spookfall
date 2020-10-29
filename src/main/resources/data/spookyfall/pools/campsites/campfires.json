@@ -1,5 +1,5 @@
 {
-  "name": "spookyfall:campsite_campfires",
+  "name": "spookyfall:campsites/campfires",
   "terminators": "empty",
   "projection": "rigid",
   "elements": [
@@ -25,7 +25,7 @@
         "structure": "spookyfall:campsites/campfires/campfire_with_roast_pig_01",
         "processors": "spookyfall:campsite_palettes"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "element": {
@@ -33,7 +33,7 @@
         "structure": "spookyfall:campsites/campfires/campfire_with_roast_rabbit_01",
         "processors": "spookyfall:campsite_palettes"
       },
-      "weight": 1
+      "weight": 2
     }
   ]
 }
