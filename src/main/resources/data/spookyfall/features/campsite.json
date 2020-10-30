@@ -286,7 +286,16 @@
             ]
           }
         ]
-      }
+      },
+      "functions": [
+        {
+          "function": "features:execute_command",
+          "commands": [
+            "team add CampfireRoast \"CampfireRoast\"",
+            "team modify CampfireRoast nametagVisibility never"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "type": "features:entity",
+  "id": "minecraft:pig",
+  "tag": "{CustomName:\"\\\"Dinnerbone\\\"\",NoAI:1,Team:CampfireRoast}",
+  "pos": {
+    "y": -1.5
+  },
+  "rotation": {
+    "parameter": "features:rotation"
+  }
+}
