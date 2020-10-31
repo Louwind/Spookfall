@@ -15,10 +15,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 30,
           "name": "minecraft:name_tag"
         },

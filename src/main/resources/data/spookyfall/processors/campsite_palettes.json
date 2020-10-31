@@ -11,6 +11,19 @@
       "blocks": [
         "minecraft:air"
       ]
+    },
+    {
+      "processor": "minecraft:rule",
+      "rules": [
+        {
+          "test": {
+            "test": "minecraft:random_block_match",
+            "block": "minecraft:cake",
+            "probability": 0.4
+          },
+          "blockstate": "minecraft:air"
+        }
+      ]
     }
   ]
 }
